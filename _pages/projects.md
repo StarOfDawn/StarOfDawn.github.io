@@ -1,7 +1,7 @@
 ---
 permalink: "/projects/"
 title: "My Projects"
-layout: single
+layout: splash
 classes: wide
 author_profile: false
 header:
@@ -11,3 +11,5 @@ I might put them here"
 ---
 
 **uwa**
+
+blah blah
