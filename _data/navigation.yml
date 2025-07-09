@@ -9,3 +9,4 @@ main:
     url: /about/
   - title: "Test"
     url: /test/
+    description: "awoga"
