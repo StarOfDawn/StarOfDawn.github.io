@@ -1,5 +1,7 @@
 main:
-  - title: "Posts"
-    url: /posts/
+  - title: "My Projects"
+    url: /projects/
   - title: "Commission Info"
     url: /commissions/
+  - title: "Blog Posts"
+    url: /posts/
