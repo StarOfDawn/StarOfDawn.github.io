@@ -12,3 +12,8 @@ excerpt: "here am i"
 ---
 **God how did you find this page**
 there's barely anything here, come back later
+
+**things i do, apparently**
+- code
+- sew
+- fun things :3
