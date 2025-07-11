@@ -2,7 +2,6 @@
 permalink: "/projects/"
 title: "My Projects"
 layout: splash
-custom_css: specialsass
 classes: wide
 author_profile: false
 header:

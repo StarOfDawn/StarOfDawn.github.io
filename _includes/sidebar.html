@@ -1,0 +1,39 @@
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  {% if page.sidebarprops.hover == "no" or page.sidebarprops.hover == false %}
+    <div class="sidebar sticky hoverimmune">
+  {% else %}
+    <div class="sidebar sticky">
+  {% endif %}
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.newlinebefore == "yes" or s.newlinebefore == true %}
+        <div style="display:block;margin-top:0px;margin-bottom:0px;">
+        </div>
+      {% endif %}
+      {% if s.spacer %}
+        <div style="display:inline-flex;width:{{ s.spacer }};max-width:{{ s.spacer }};margin-top:1px;margin-bottom:1px;">
+        </div>
+      {% endif %}
+      {% if s.image %}
+        <img class="sidebar-image"
+             src="{{ s.image | relative_url }}"
+             alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}"
+             style="{% if s.maxwidth %}max-width:{{ s.maxwidth }};{% endif %}{% if s.newlines == "yes" or s.newlines == true %}display:block;{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+      {% if s.newlineafter == "yes" or s.newlineafter == true %}
+        <div style="display:block;margin-top:0px;margin-bottom:0px;">
+        </div>
+      {% endif %}
+    {% endfor %}
+    {% comment %}
+      {% if page.sidebar.nav %}
+        {% include nav_list nav=page.sidebar.nav %}
+      {% endif %}
+    {% endcomment %}
+  {% endif %}
+  </div>
+{% endif %}
