@@ -16,6 +16,12 @@
   //   transform: translate3d(0, 0, 0);
   // }
 
+  img.sidebar-image{
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
   @include breakpoint($large) {
     float: inline-start;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
@@ -23,12 +29,6 @@
       opacity: 0.75;
       -webkit-transition: opacity 0.2s ease-in-out;
       transition: opacity 0.2s ease-in-out;
-    }
-
-    img.sidebar-image{
-      display: inline-block;
-      margin-top: 1px;
-      margin-bottom: 1px;
     }
 
     &:hover {
