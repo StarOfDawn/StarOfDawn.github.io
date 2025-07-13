@@ -1,0 +1,19 @@
+[
+    {
+        spacer: 25px,
+        image: /assets/images/pop-cat.gif,
+        maxwidth: 50px,
+        newlines: no,
+        newlinebefore: no,
+        newlineafter: yes
+    },
+    {
+        image: /assets/images/pop-cat.gif,
+        maxwidth: 50px
+    },
+    {
+        image: /assets/images/pop-cat.gif,
+        maxwidth: 50px,
+        newlineafter: yes
+    }
+]

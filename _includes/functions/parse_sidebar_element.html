@@ -1,0 +1,25 @@
+{% assign s = include.sidebar_element %}
+
+{% if s.premade %}
+    {% assign elements=site.data.sidebars[s.premade] %}
+    {% include /functions/parse_sidebar_elements.html sidebar_elements=elements %}
+{% endif %}
+
+{% if s.newlinebefore == "yes" or s.newlinebefore == true %}
+    <div style="display:block;margin-top:0px;margin-bottom:0px;"></div>
+{% endif %}
+{% if s.spacer %}
+    <div style="display:inline-flex;width:{{ s.spacer }};max-width:{{ s.spacer }};margin-top:1px;margin-bottom:1px;"></div>
+{% endif %}
+{% if s.image %}
+    <img class="sidebar-image"
+        src="{{ s.image | relative_url }}"
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}"
+        style="{% if s.maxwidth %}max-width:{{ s.maxwidth }};{% endif %}{% if s.newlines == "yes" or s.newlines == true %}display:block;{% endif %}">
+{% endif %}
+{% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+{% if s.text %}{{ s.text | markdownify }}{% endif %}
+{% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+{% if s.newlineafter == "yes" or s.newlineafter == true %}
+    <div style="display:block;margin-top:0px;margin-bottom:0px;"></div>
+{% endif %}
