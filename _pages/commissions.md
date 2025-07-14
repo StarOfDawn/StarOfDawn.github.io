@@ -1,12 +1,18 @@
 ---
 permalink: "/commissions/"
 title: "Commissions"
-layout: single
+layout: topbottomcontent
 author_profile: false
 sidebar: [
-  {premade: "sidebar_popcat_choir"},
-  {image: /assets/images/pop-cat.gif, maxwidth: 50px}, 
-  {text: b}
+  {premade: "popcat_choir"},
+  {text: Feed the popcat choir by commissioning me}
+]
+topcontent: [
+  {premade: "popcat_choir"},
+  {text: asda}
+]
+bottomcontent: [
+  {premade: "popcat_choir"}
 ]
 sidebarprops:
   hover: no

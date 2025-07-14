@@ -1,8 +1,8 @@
-{% assign s = include.sidebar_element %}
+{% assign s = include.element %}
 
 {% if s.premade %}
-    {% assign elements=site.data.sidebars[s.premade] %}
-    {% include /functions/parse_sidebar_elements.html sidebar_elements=elements %}
+    {% assign temp_elements=site.data.premades[s.premade] %}
+    {% include /functions/parse_elements.html elements=temp_elements %}
 {% endif %}
 
 {% if s.newlinebefore == "yes" or s.newlinebefore == true %}

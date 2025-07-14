@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+.page__content {
+  .topcontent{
+    p {
+      margin-top: 0.5em;
+    }
+  }
+
+  .bottomcontent{
+    p {
+      margin-top: 0.5em;
+    }
+  }
+}

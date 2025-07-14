@@ -1,0 +1,21 @@
+---
+layout: single
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/topbottomcontent.css' | relative_url }}">
+
+<div class="topcontent">
+{% if page.topcontent %}
+    {% include /functions/parse_elements.html elements=page.topcontent %}
+{% endif %}
+</div>
+
+<div>
+{{ content }}
+</div>
+
+<div class="bottomcontent">
+{% if page.bottomcontent %}
+    {% include /functions/parse_elements.html elements=page.bottomcontent %}
+{% endif %}
+</div>
