@@ -13,7 +13,11 @@
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
-    max-width: $max-width;
+    max-width: $x-large;
+  }
+
+  @include breakpoint($xx-large) {
+    max-width: $xx-large;
   }
 }
 
@@ -214,9 +218,11 @@ body {
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
+    /* Make page lead match width of wrapper
     .page__lead {
       max-width: $medium;
     }
+    */
 
     .page__title {
       font-size: $type-size-2;

@@ -1,8 +1,7 @@
 ---
 permalink: "/projects/"
 title: "My Projects"
-layout: splash
-classes: wide
+layout: single
 author_profile: false
 header:
   overlay_image: /assets/images/banner.jpg
