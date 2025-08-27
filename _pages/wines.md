@@ -1,5 +1,5 @@
 ---
-permalink: "/wine/"
+permalink: "/wines/"
 title: "Wine :3"
 layout: splash
 classes: wide
@@ -9,6 +9,8 @@ header:
   overlay_filter: "0.1"
 excerpt: "i like wine"
 ---
+
+**Cigar Box Malbec**
 
 **Contesa Montepulciano D'Abruzzo**
 

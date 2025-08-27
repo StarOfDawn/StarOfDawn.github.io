@@ -1,5 +1,5 @@
 ---
-title: "Sus: MeeM"
+title: "Test"
 categories:
   - Blog
 tags:
@@ -7,8 +7,4 @@ tags:
   - Post Formats
 ---
 
-Abbott: Ses
-
-Costello: waw
-
-Abbott: Yes.
+test post

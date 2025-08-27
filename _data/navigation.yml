@@ -1,14 +1,16 @@
 main:
-  - title: "My Projects"
-    url: /projects/
-  - title: "Commission Info"
-    url: /commissions/
+  # - title: "My Projects"
+  #   url: /projects/
+  # - title: "Comm. Info"
+  #   url: /commissions/
   - title: "Art"
     url: /art/
   - title: "Art Posts"
     url: /all-art/
   - title: "All Posts"
     url: /posts/
+  - title: "Stuff I Like"
+    url: /things-i-like/
   - title: "About"
     url: /about/
 
