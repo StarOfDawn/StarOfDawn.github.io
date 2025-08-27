@@ -4,7 +4,7 @@ layout: single
 
 <link rel="stylesheet" href="{{ '/assets/css/topbottomcontent.css' | relative_url }}">
 
-<div class="topcontent">
+<div class="topcontent page__content">
 {% if page.topcontent %}
     {% include /functions/parse_elements.html elements=page.topcontent %}
 {% endif %}
@@ -14,7 +14,7 @@ layout: single
 {{ content }}
 </div>
 
-<div class="bottomcontent">
+<div class="bottomcontent page__content">
 {% if page.bottomcontent %}
     {% include /functions/parse_elements.html elements=page.bottomcontent %}
 {% endif %}

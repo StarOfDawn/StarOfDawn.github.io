@@ -1,8 +1,7 @@
 {% assign s = include.element %}
-
 {% if s.premade %}
     {% assign temp_elements=site.data.premades[s.premade] %}
-    {% include /functions/parse_elements.html elements=temp_elements %}
+    {% include /functions/parse_elements.html elements=temp_elements in_sidebar=include.in_sidebar %}
 {% endif %}
 
 {% if s.newlinebefore == "yes" or s.newlinebefore == true %}
@@ -12,7 +11,13 @@
     <div style="display:inline-flex;width:{{ s.spacer }};max-width:{{ s.spacer }};margin-top:1px;margin-bottom:1px;"></div>
 {% endif %}
 {% if s.image %}
-    <img class="sidebar-image"
+    {% if include.in_sidebar %}
+        {% assign image-type = "sidebar-image" %}
+    {% else %}
+        {% assign image-type = "content-image" %}
+    {% endif %}
+
+    <img class="{{ image-type }}"
         src="{{ s.image | relative_url }}"
         alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}"
         style="{% if s.maxwidth %}max-width:{{ s.maxwidth }};{% endif %}{% if s.newlines == "yes" or s.newlines == true %}display:block;{% endif %}">

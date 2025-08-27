@@ -3,7 +3,11 @@ main:
     url: /projects/
   - title: "Commission Info"
     url: /commissions/
-  - title: "Blog Posts"
+  - title: "Art"
+    url: /art/
+  - title: "Art Posts"
+    url: /all-art/
+  - title: "All Posts"
     url: /posts/
   - title: "About"
     url: /about/

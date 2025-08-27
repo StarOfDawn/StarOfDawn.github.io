@@ -1,3 +1,3 @@
 {% for s in include.elements %}
-    {% include /functions/parse_element.html element=s %}
+    {% include /functions/parse_element.html element=s in_sidebar=include.in_sidebar %}
 {% endfor %}
