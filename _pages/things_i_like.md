@@ -20,6 +20,10 @@ Blutengel - Dämonen
 
 [jollyanchorblog.bearblog.dev](https://jollyanchorblog.bearblog.dev)
 
+<a href="https://lilithdev.neocities.org/"><img src="https://lilithdev.neocities.org/buttons/lilithdevbtn.gif"></a>
+
+[gojidragon.net/](https://gojidragon.net/)
+
 ### Wines
 
 [Some wines i like here](/wines/)
