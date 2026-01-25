@@ -11,7 +11,7 @@ header:
 excerpt: "here am i"
 ---
 
-Hi, I'm Dawn / Renata, and this is my website :3
+Hi, I'm Dawn, and this is my website :3
 
 It's still a work in progress but I hope after a bit over a month of on-and-off work, it's at least starting to be interesting. I like to draw, and I do more hands-on projects as well as code sometimes too. I'll try to keep this site updated with anything I'm working on.
 
