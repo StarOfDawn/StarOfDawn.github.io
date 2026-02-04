@@ -11,8 +11,8 @@ header:
 excerpt: "here am i"
 ---
 
-Hi, I'm Dawn, and this is my website :3
+Hi, I'm Dawn :3 welcome to my website
 
-It's still a work in progress but I hope after a bit over a month of on-and-off work, it's at least starting to be interesting. I like to draw, and I do more hands-on projects as well as code sometimes too. I'll try to keep this site updated with anything I'm working on.
+It's still a work in progress, i edit pretty sporadically but i hope it's at least starting to be interesting. I like to play bass and draw, and I do hands-on projects as well as code sometimes too. I'll try to keep this site updated with anything I'm working on.
 
-Sorry for the plain design, I'm planning to add more fun stuff to the pages soon!
+Sorry for the plain design, I'm planning to add more fun stuff to the page designs soon!

@@ -12,9 +12,26 @@ header:
 
 ### Music
 
-Ada Rook - Unkillable angel and ugly death
+Ada Rook - Unkillable angel, ugly death, and the new album 59 nights is so peak
 
-Blutengel - Dämonen
+Porter Robinson - My first favorite artist, cheerleader is my first fave from him
+
+Flaming Lips - Yoshimi is one of my favorite albums 
+
+I DONT KNOW HOW BUT THEY FOUND ME - razzmatazz
+
+Red Hot Chili Peppers - Dosed is my favorite song from them
+
+Some other artists I've enjoyed:
+
+- Blutengel
+- TOOL
+- Vulfpeck
+- glass beach
+- stomach book
+- jhariah
+- Tame Impala
+
 
 ### Pages
 

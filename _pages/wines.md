@@ -10,6 +10,8 @@ header:
 excerpt: "i like wine"
 ---
 
+I like dry smoky wines, pls tell me any wines that taste like cigarette ash, noire, and yearning
+
 **Cigar Box Malbec**
 
 **Contesa Montepulciano D'Abruzzo**
